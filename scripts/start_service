@@ -1,0 +1,9 @@
+#!/bin/bash
+cd /home/ubuntu/
+
+# use systemd to start and monitor dotnet application
+systemctl enable kestrel-aspnetcoreservice.service
+systemctl start kestrel-aspnetcoreservice.service
+
+# start apache
+systemctl restart apache2.service
