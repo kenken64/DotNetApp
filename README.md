@@ -1,4 +1,4 @@
-AWS CodeStar Sample ASP.NET Core Web Service
+  AWS CodeStar Sample ASP.NET Core Web Service
 ==================================================
 
 This sample code helps get you started with a simple ASP.NET Core web service
